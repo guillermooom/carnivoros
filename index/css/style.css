@@ -568,7 +568,7 @@ Footer
 		bottom: 0;
 		top: 0;
 		z-index: 3;
-		margin-top: 2200px;
+		margin-top: 2050px;
 	}
 	.link:hover {
 		color: #7FBC4E;
@@ -607,36 +607,36 @@ Footer
 
 	@media (max-width: 1600px) {
 		footer{
-			margin-top: 2000px;
+			margin-top: 1900px;
 		}
 	}
 
 	@media (max-width: 1200px) {
 		footer{
-			margin-top: 2600px;
+			margin-top: 2450px;
 		}
 	}
 
 	@media (max-width: 1000px) {
 		footer{
-			margin-top: 2400px;
+			margin-top: 2300px;
 		}
 	}
 
 	@media (max-width: 800px) {
 		footer{
-			margin-top: 2100px;
+			margin-top: 2000px;
 		}
 	}
 
 	@media (max-width: 600px) {
 		footer{
-			margin-top: 3800px;
+			margin-top: 3500px;
 		}
 	}
 
 	@media (max-width: 400px) {
 		footer{
-			margin-top: 3150px;
+			margin-top: 2900px;
 		}
 	}
