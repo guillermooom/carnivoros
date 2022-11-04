@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Calibri';
+	line-height: 15px;
+    color: #4f4f4f;
+}
+/*main{
+    padding: 15px;
+}*/
+
+/*
+
+---> SI LE METEMOS FOTO ARRIBAS DESCOMENTAR Y CAMBIAR IMAGEN
+
+.foto_ini{
+    width: 100%;
+    height: 300px;
+    background-image:url("../img/coyote.jpeg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}*/
+.foto_ini > p{
+    padding-left: 10px;
+    padding-top:10px;
+    font-size:15px;
+    color:rgba(255,255,255,0.75);
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 30px;
+    font-weight: 750;
+}
+.foto_ini > p > a{
+    text-decoration: none;
+    color:rgba(255,255,255,0.75);
+    font-weight: 300;   
+}
+.lista{
+    display: grid;
+    grid-template-columns: auto ;
+    margin: 0 auto;
+    column-gap: 75px;
+    row-gap: 75px;
+    width: 90%;
+    font-size: 30px;
+}
+.lista > .ani{
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+}
+.ani > img{
+    width: 100%;
+    height: 60%;
+}
+.ani > h2 , a{
+    text-decoration: none;
+    color: #4f4f4f;
+}
+.ani > hr {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #81B214;
+    border: 1px solid #81B214;
+    height: 5px;
+}
+.ani > .cont {
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+@media(min-width:600px) {
+    .lista{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+}
+
+@media(min-width:1200px) {
+    .lista{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+/* FOOTER */
+footer{
+    margin-top: 75px;
+    font-family: 'Calibri';
+    font-size:20px;
+    color: #4f4f4f;
+    height: 450px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.enla{
+    margin-top: 25px;
+    margin-bottom: -25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.enla > a{
+    text-decoration: none;
+    color: #4f4f4f;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fav{
+    display: flex;
+    justify-content: center;
+}
+.hier{
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/hierba.png");
+}
+.fav > img{
+    width: 150px;
+    height: 150px;
+}

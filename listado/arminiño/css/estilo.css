@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Calibri';
+	font-size: 6pt;
+	line-height: 15px;
+    color: #4f4f4f;
+}
+/*main{
+    padding: 15px;
+}*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.grid-container > div {
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.foto_ini{
+    width: 100%;
+    height: 300px;
+    background-image:url("../img/arminiño.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.foto_ini > p{
+    padding-left: 10px;
+    padding-top:10px;
+    font-size:15px;
+    color:rgba(255,255,255,0.75);
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 30px;
+    font-weight: 750;
+}
+.foto_ini > p > a{
+    text-decoration: none;
+    color:rgba(255,255,255,0.75);
+    font-weight: 300;   
+}
+.cont{
+    margin: 25px;
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 20px;
+    line-height: 30px;
+}
+.cont > .tit{
+    text-transform: uppercase;
+    font-size: 700rem 30px;
+    text-align: left;
+    font-weight: 600;
+    font-family: 10, "Courier New";
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+.cont > .n_cient{
+    text-align: left;
+    font-style:italic ;
+    font-size: 25px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    margin-top: -10px;
+}
+.cont > .cont ,p{
+    text-align: left;
+    font-size: 20px;
+}
+.subtit{
+    font-weight: 600;
+    font-family: 10, "Courier New";
+    text-transform: uppercase;
+}
+.estado_r{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: solid 10px rgb(14, 211, 0);
+    border-radius: 120px;
+    align-items: center;
+}
+.estado_r > h3{
+    font-size: 30px;
+    margin-top: 65px;  
+}
+.descubre{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    height: 100px;
+    background-color: #F0BB62;
+}
+.linea {
+    background-color: #81B214;
+    height: 3px;
+    width: 50px;
+    color: #81B214;
+}
+.info{
+    display: flex;
+    margin-top: 25px;
+}
+.info > img {
+    margin-top: -15px;
+    margin-right: 20px;
+    width: 75px;
+    height: 75px;
+    border-radius: 120px;
+}
+.descrip{
+    text-align: left;
+}
+.descrip > h4{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.datos{
+   
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 10px;
+    row-gap: 20px;
+    /*margin:15px;*/
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+@media(min-width:600px) {
+    .datos{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 50px;
+        row-gap:75px;
+    }
+    .foto_ini{
+        width: 100%;
+        height: 500px;
+    }
+    
+}
+
+@media(min-width:1200px) {
+    .cont{
+        margin-left:15%;
+        margin-right: 15%;
+     }
+    body{
+        font-family: 'Calibri';
+        font-size: 6pt;
+        line-height: 15px;
+        color: #4f4f4f;
+    }
+    .datos{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .foto_ini{
+        width: 100%;
+        height: 700px;
+    }
+}
+
+/* FOOTER */
+footer{
+    margin-top: 75px;
+    font-family: 'Calibri';
+    font-size:20px;
+    color: #4f4f4f;
+    height: 450px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.enla{
+    margin-top: 25px;
+    margin-bottom: -25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.enla > a{
+    text-decoration: none;
+    color: #4f4f4f;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fav{
+    display: flex;
+    justify-content: center;
+}
+.hier{
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/hierba.png");
+}
+.fav > img{
+    width: 150px;
+    height: 150px;
+}
