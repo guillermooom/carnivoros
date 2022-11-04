@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Calibri';
+	font-size: 6pt;
+	line-height: 15px;
+    color: #4f4f4f;
+}
+/*main{
+    padding: 15px;
+}*/
+.foto_ini > p{
+    padding-left: 10px;
+    padding-top:10px;
+    font-size:15px;
+    color:rgba(255,255,255,0.75);
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 30px;
+    font-weight: 750;
+}
+.foto_ini > p > a{
+    text-decoration: none;
+    color:rgba(255,255,255,0.75);
+    font-weight: 300;   
+}
+.cont{
+    margin: 25px;
+    padding: 10px;
+    line-height: 30px;
+}
+.cont > h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: left;
+    font-weight: 600;
+    font-family: 20, "Courier New";
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+dl{
+    margin-left: 50px;
+}
+ dd >a{
+    color: #4f4f4f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    font-family: 20, "Courier New";
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+/* FOOTER */
+footer{
+    margin-top: 75px;
+    font-family: 'Calibri';
+    font-size:20px;
+    color: #4f4f4f;
+    height: 450px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.enla{
+    margin-top: 25px;
+    margin-bottom: -25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.enla > a{
+    text-decoration: none;
+    color: #4f4f4f;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fav{
+    display: flex;
+    justify-content: center;
+}
+.hier{
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/hierba.png");
+}
+.fav > img{
+    width: 150px;
+    height: 150px;
+}
